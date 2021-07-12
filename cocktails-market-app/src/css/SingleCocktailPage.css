@@ -1,0 +1,116 @@
+.singleCocktailPage {
+  display: flex;
+  width: 1000px;
+  margin: 20px 100px;
+}
+
+.singleCocktailPage > div {
+  display: flex;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.drink-name {
+  color: #fff;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.buyButtonCocktail {
+  position: relative;
+  top: 0;
+  left: 140px;
+}
+
+.buyButtonCocktail:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.singleCocktailPage h3 {
+  color: #fff;
+  height: 25px;
+  width: 150px;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.singleCocktailPage img {
+  width: 500px;
+  height: 500px;
+}
+
+.single-page-container {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ingredients-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.ingredient {
+  height: 180px;
+  margin-top: 20px;
+  border: 1px solid #fff;
+}
+
+.ingredient img {
+  width: 150px;
+  height: 150px;
+}
+
+.ingredient p {
+  color: #fff;
+  text-align: center;
+}
+
+.description {
+  color: #fff;
+  width: 1000px;
+  margin-left: 100px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.description p {
+  padding-top: 10px;
+}
+
+.description span {
+  color: rgb(165, 162, 162);
+  padding-right: 15px;
+}
+
+.instruction {
+  margin-top: 10px;
+  width: 500px;
+  overflow: auto;
+}
+
+#style-1::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+  border-radius: 10px;
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}

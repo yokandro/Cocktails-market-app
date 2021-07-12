@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.com {
+  position: relative;
+  background-color: #2f3640;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.content,
+.abc {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.content-box {
+  background-color: #2f3640;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.4px;
+}
+
+.cocktail {
+  margin-top: 10px;
+  width: 250px;
+  color: #fff;
+  padding-bottom: 35px;
+}
+
+.cocktail p {
+  float: left;
+  margin-left: 10px;
+  margin-top: 7px;
+  width: 150px;
+}
+
+.cocktail img {
+  border-radius: 20px;
+}
+
+.buyBtn {
+  float: right;
+  margin-right: 10px;
+}
+
+.buyBtn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.filterPage,
+.searchPage {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 20px;
+  padding-bottom: 200px;
+}
+
+.personal-rec-text {
+  width: 700px;
+}
+
+.personal-rec-text p {
+  float: left;
+  color: #fff;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.personal-rec-btn {
+  float: right;
+  margin-right: 20px;
+}
+
+.personal-rec-btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.recommendPage h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.recommendPage h3 {
+  color: #fff;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.recommendPage-cocktail {
+  margin-left: 20%;
+}
+
+.recommendPage-cocktail img {
+  border-radius: 20px;
+}
+
+.recommendPage-cocktail img:hover {
+  cursor: pointer;
+}
