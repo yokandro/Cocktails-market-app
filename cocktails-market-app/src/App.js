@@ -14,7 +14,7 @@ const App = () => {
       <div className="content-box">
         <div className="content">
           <Switch>
-            <Route exact path="/" component={RecommendPage} />
+            <Route path="/Cocktail-market-app" component={RecommendPage} />
             <Route path="/cocktails" component={CocktailsPage} />
             <Route path="/cocktail/:id" component={SingleCocktailPage} />
             <Route path="/not-found" component={NotFoundPage} />
