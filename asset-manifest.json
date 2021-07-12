@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Cocktails-market-app/static/css/main.adfa89af.chunk.css",
+    "main.js": "/Cocktails-market-app/static/js/main.e9196553.chunk.js",
+    "main.js.map": "/Cocktails-market-app/static/js/main.e9196553.chunk.js.map",
+    "runtime-main.js": "/Cocktails-market-app/static/js/runtime-main.be942288.js",
+    "runtime-main.js.map": "/Cocktails-market-app/static/js/runtime-main.be942288.js.map",
+    "static/js/2.a46e25b3.chunk.js": "/Cocktails-market-app/static/js/2.a46e25b3.chunk.js",
+    "static/js/2.a46e25b3.chunk.js.map": "/Cocktails-market-app/static/js/2.a46e25b3.chunk.js.map",
+    "index.html": "/Cocktails-market-app/index.html",
+    "static/css/main.adfa89af.chunk.css.map": "/Cocktails-market-app/static/css/main.adfa89af.chunk.css.map",
+    "static/js/2.a46e25b3.chunk.js.LICENSE.txt": "/Cocktails-market-app/static/js/2.a46e25b3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be942288.js",
+    "static/js/2.a46e25b3.chunk.js",
+    "static/css/main.adfa89af.chunk.css",
+    "static/js/main.e9196553.chunk.js"
+  ]
+}
